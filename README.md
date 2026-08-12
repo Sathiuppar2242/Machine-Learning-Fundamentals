@@ -1,100 +1,83 @@
-\# Machine Learning Fundamentals
+# Machine Learning Fundamentals
 
+## Iris Flower Classification
 
+This project demonstrates a complete beginner-friendly Machine Learning workflow using Python and Scikit-learn.
 
-\## Iris Flower Classification
+## Project Objective
 
+The objective of this project is to build a Machine Learning model that can classify Iris flowers into three species based on their measurements.
 
+The three species are:
 
-This project demonstrates the basic Machine Learning workflow using Python and Scikit-learn.
+- Setosa
+- Versicolor
+- Virginica
 
+## Dataset
 
+The project uses the built-in Iris dataset provided by Scikit-learn.
 
-\## Project Objective
+The dataset contains:
 
+- 150 flower samples
+- 4 input features
+- 3 target classes
 
+### Features
 
-The objective of this project is to train a Machine Learning model that can classify Iris flowers into different species based on their measurements.
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
 
+## Technologies Used
 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Google Colab
+- Jupyter Notebook
 
-\## Technologies Used
+## Machine Learning Algorithm
 
+### K-Nearest Neighbors (KNN)
 
+The project uses the K-Nearest Neighbors classification algorithm.
 
-\- Python
+Before training the model, the input features are standardized using `StandardScaler`.
 
-\- Google Colab
+## Machine Learning Workflow
 
-\- Scikit-learn
+The project follows these steps:
 
-\- Pandas
+1. Import required libraries
+2. Load the Iris dataset
+3. Explore the dataset
+4. Check for missing values
+5. Perform statistical analysis
+6. Visualize the dataset
+7. Prepare features and target
+8. Split the dataset into training and testing sets
+9. Scale the features
+10. Train the KNN model
+11. Make predictions
+12. Evaluate model accuracy
+13. Generate a classification report
+14. Create a confusion matrix
+15. Predict the species of a new flower
 
-\- NumPy
+## Project Files
 
-\- Matplotlib
-
-\- Seaborn
-
-
-
-\## Dataset
-
-
-
-The Iris dataset contains measurements of Iris flowers:
-
-
-
-\- Sepal Length
-
-\- Sepal Width
-
-\- Petal Length
-
-\- Petal Width
-
-
-
-The target classes are:
-
-
-
-\- Iris Setosa
-
-\- Iris Versicolor
-
-\- Iris Virginica
-
-
-
-\## Machine Learning Workflow
-
-
-
-1\. Load the dataset
-
-2\. Explore the data
-
-3\. Visualize the data
-
-4\. Prepare features and target
-
-5\. Split the dataset
-
-6\. Train the Machine Learning model
-
-7\. Make predictions
-
-8\. Evaluate the model
-
-9\. Test the model with new data
-
-
-
-\## Project Status
-
-
-
-In Progress
-
+```text
+Machine-Learning-Fundamentals/
+│
+├── Iris_Flower_Classification_ML.ipynb
+├── iris_classification.py
+├── machine_learning.py
+├── requirements.txt
+├── README.md
+└── .gitignore
