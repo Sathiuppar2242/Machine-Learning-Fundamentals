@@ -305,18 +305,38 @@ A K-Nearest Neighbors model was trained using the Iris dataset and achieved an a
 
 This project provided practical experience with data exploration, visualization, preprocessing, model training, prediction, and evaluation using Python and Scikit-learn.
 
-Project Status
+## Project Status
 
-Completed
+**Completed**
 
-Module
+### Internship Module
 
-Module 4 — Machine Learning Fundamentals
+**Module 4 — Machine Learning Fundamentals**
 
-Internship Task
+### Internship Schedule
 
-Day 13 – Day 16
+**Day 13 – Day 16**
 
-Project Type
+### Project Type
 
-Beginner Machine Learning Classification Project
+**Supervised Machine Learning Classification**
+
+### Model Used
+
+**K-Nearest Neighbors (KNN)**
+
+### Test Accuracy
+
+**93.33%**
+
+### Deliverable
+
+**Google Colab Notebook**
+
+### Project Repository
+
+[Machine Learning Fundamentals - GitHub](https://github.com/Sathiuppar2242/Machine-Learning-Fundamentals)
+
+### Google Colab
+
+[Open the Complete Google Colab Notebook](https://colab.research.google.com/drive/1WsdDOOsUuuIL_tZgdG-DksgnkK98lgXl?usp=sharing)
